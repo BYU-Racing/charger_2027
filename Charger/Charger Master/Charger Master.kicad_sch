@@ -2156,16 +2156,6 @@
 		)
 		(uuid "e69354dd-770c-48eb-82ac-5e6f7ce2557c")
 	)
-	(label "12V"
-		(at 168.91 144.78 180)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee43c526-5112-4bc0-a419-307040cbed79")
-	)
 	(label "LV-"
 		(at 19.05 107.95 0)
 		(effects
