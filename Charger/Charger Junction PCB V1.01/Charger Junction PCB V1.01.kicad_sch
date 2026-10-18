@@ -2381,7 +2381,7 @@
 			(uuid "fc6d263f-6e2f-4fb9-9f8c-98e20cd5f57d")
 		)
 		(instances
-			(project "Charger Master"
+			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "#PWR01")
 					(unit 1)
@@ -2495,7 +2495,7 @@
 			(uuid "2fff5126-1d89-4ad9-ba5a-f238012abc44")
 		)
 		(instances
-			(project "Charger Master"
+			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "J2")
 					(unit 1)
@@ -2584,7 +2584,7 @@
 			(uuid "83ea1c8d-c61d-4e11-b34e-e0ba8d69f966")
 		)
 		(instances
-			(project "Charger Master"
+			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "J1")
 					(unit 1)
@@ -2660,7 +2660,7 @@
 			)
 		)
 		(instances
-			(project "Charger Master"
+			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(page "2")
 				)
