@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Charger Master.kicad_pro",
+    "filename": "Breakout Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -424,9 +424,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Charger Master.kicad_sch",
-        "name": "Main Schematic",
-        "uuid": "75f6fa4d-fba8-4d29-9299-863888d8bb95"
+        "filename": "Breakout Board.kicad_sch",
+        "name": "Root",
+        "uuid": "ddd2beb2-e1ed-4cfc-a18a-cd8856936862"
       }
     ],
     "used_designators": "J1",
@@ -434,12 +434,8 @@
   },
   "sheets": [
     [
-      "75f6fa4d-fba8-4d29-9299-863888d8bb95",
-      "Main Schematic"
-    ],
-    [
-      "37a81acb-7a57-4259-903f-870230a418d1",
-      "Charger Breakout Box"
+      "ddd2beb2-e1ed-4cfc-a18a-cd8856936862",
+      "Root"
     ]
   ],
   "text_variables": {},

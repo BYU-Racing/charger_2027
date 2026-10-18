@@ -1,0 +1,107 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1ec0dd11-7c44-4704-88c3-0f897bdb5651")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "HV+"
+		(shape input)
+		(at 215.9 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26654ebe-a255-43bb-8d08-14207c8ff229")
+	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 220.98 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bddb36e-8da8-405f-86c0-3e516e534c8c")
+	)
+	(hierarchical_label "HV-"
+		(shape input)
+		(at 214.63 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "911c756d-6389-47af-8fcf-9c765ca83225")
+	)
+	(sheet
+		(at 115.57 53.34)
+		(size 63.5 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a56e1ce8-18bc-4320-87c8-0a13c817c3cf")
+		(property "Sheetname" "Junction PCB"
+			(at 115.57 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Junction PCB.kicad_sch"
+			(at 115.57 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "control_pilot_in" input
+			(at 115.57 62.23 180)
+			(uuid "927f9b3d-151f-49e6-9ca7-13df750c82a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "control_proximity" input
+			(at 115.57 66.04 180)
+			(uuid "415573dd-45f1-40ef-aa36-94f5e2f30152")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Charger Master"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1"
+					(page "3")
+				)
+			)
+		)
+	)
+)
