@@ -661,21 +661,13 @@
         "uuid": "75f6fa4d-fba8-4d29-9299-863888d8bb95"
       }
     ],
-    "used_designators": "R1-2,J1-7,D1-2,#PWR1-4,SW1",
+    "used_designators": "J1-7,R1-2,#PWR1-4,#PWR8,D1-2,SW1",
     "variants": []
   },
   "sheets": [
     [
       "75f6fa4d-fba8-4d29-9299-863888d8bb95",
       "Charger Junction PCB V1.01"
-    ],
-    [
-      "37a81acb-7a57-4259-903f-870230a418d1",
-      "Charger Breakout Box"
-    ],
-    [
-      "a56e1ce8-18bc-4320-87c8-0a13c817c3cf",
-      "Junction PCB"
     ]
   ],
   "text_variables": {},

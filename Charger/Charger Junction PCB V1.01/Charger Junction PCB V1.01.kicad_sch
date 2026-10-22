@@ -188,6 +188,273 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2418,6 +2685,12 @@
 		)
 	)
 	(junction
+		(at 162.56 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5f9d4a-adaf-41f7-b278-452b5b48f629")
+	)
+	(junction
 		(at 114.3 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2430,16 +2703,16 @@
 		(uuid "16be0b63-52b9-4408-a0bf-d51439d60ae9")
 	)
 	(junction
-		(at 195.58 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac420afd-1cf3-4354-86ef-167cd571835b")
-	)
-	(junction
 		(at 220.98 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3517990-05ba-4123-8329-807b7424af8d")
+	)
+	(junction
+		(at 195.58 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdbb60fd-9ac3-4ebe-9466-bef2c7138643")
 	)
 	(junction
 		(at 99.06 85.09)
@@ -2449,7 +2722,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 129.54) (xy 132.08 142.24)
+			(xy 160.02 142.24) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ca3fb7-ed8e-4074-a98a-13840ffd9c71")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 128.27 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2479,6 +2762,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 120.65) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b8b379-95e1-4836-9a6d-6352979f78ab")
+	)
+	(wire
+		(pts
+			(xy 146.05 128.27) (xy 154.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ab9e04-6ce6-4807-b21c-e8e4ecf2284a")
+	)
+	(wire
+		(pts
 			(xy 128.27 85.09) (xy 168.91 85.09)
 		)
 		(stroke
@@ -2486,6 +2789,16 @@
 			(type default)
 		)
 		(uuid "3c7aea21-14d7-4cbf-99e4-ee2d7a3b1e5d")
+	)
+	(wire
+		(pts
+			(xy 140.97 120.65) (xy 157.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1f3766-f46d-43ee-9943-07a462e147f9")
 	)
 	(wire
 		(pts
@@ -2519,16 +2832,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 120.65) (xy 144.78 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50da8b6f-b66d-4727-a789-73f96f4830d9")
-	)
-	(wire
-		(pts
 			(xy 220.98 120.65) (xy 259.08 120.65)
 		)
 		(stroke
@@ -2536,6 +2839,26 @@
 			(type default)
 		)
 		(uuid "5713ff99-9164-47cf-8f86-24a4ac4ab1f8")
+	)
+	(wire
+		(pts
+			(xy 154.94 128.27) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631f5c22-8e85-45f5-8a01-c0e8924989b4")
+	)
+	(wire
+		(pts
+			(xy 140.97 142.24) (xy 140.97 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659825bc-b76f-4796-bf37-c408f4e7a182")
 	)
 	(wire
 		(pts
@@ -2559,13 +2882,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 120.65) (xy 144.78 142.24)
+			(xy 157.48 120.65) (xy 157.48 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6f9f89d-458c-4f0f-9b37-e245c48eda49")
+		(uuid "a0824bec-8e65-41cd-9f1b-5f14a6cc3519")
+	)
+	(wire
+		(pts
+			(xy 148.59 137.16) (xy 148.59 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1b408b-d6a5-4a6a-909d-6cc4718f3067")
+	)
+	(wire
+		(pts
+			(xy 195.58 120.65) (xy 162.56 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d8c943-42e8-4c57-a358-240563d55c7e")
 	)
 	(wire
 		(pts
@@ -2627,9 +2970,19 @@
 		)
 		(uuid "e441d7de-7d59-42d8-ba8f-656182604415")
 	)
+	(wire
+		(pts
+			(xy 146.05 142.24) (xy 146.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e583e3b4-cba7-43ff-b7ba-2e980338765f")
+	)
 	(hierarchical_label "CAN L"
 		(shape input)
-		(at 139.7 142.24 90)
+		(at 135.89 142.24 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2684,7 +3037,7 @@
 	)
 	(hierarchical_label "control_pilot_in"
 		(shape output)
-		(at 97.79 161.29 90)
+		(at 114.3 143.51 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2695,7 +3048,7 @@
 	)
 	(hierarchical_label "TS_HVIL_OUT"
 		(shape output)
-		(at 134.62 142.24 90)
+		(at 130.81 142.24 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2772,7 +3125,7 @@
 	)
 	(hierarchical_label "TS_HVIL_IN"
 		(shape output)
-		(at 137.16 142.24 90)
+		(at 133.35 142.24 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2827,7 +3180,7 @@
 	)
 	(hierarchical_label "control_proximity"
 		(shape output)
-		(at 95.25 161.29 90)
+		(at 111.76 143.51 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2893,7 +3246,7 @@
 	)
 	(hierarchical_label "CAN H"
 		(shape output)
-		(at 142.24 142.24 90)
+		(at 138.43 142.24 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2901,17 +3254,6 @@
 			(justify left)
 		)
 		(uuid "ed464330-7879-4fdb-a782-91b02351eed2")
-	)
-	(hierarchical_label "12V_5A_Positive"
-		(shape input)
-		(at 220.98 120.65 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "edc5f781-bf28-4d2f-8002-4b12698c673c")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2988,7 +3330,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "R1")
 					(unit 1)
 				)
@@ -3072,6 +3414,12 @@
 			(uuid "eb561916-f83c-41c2-85d7-9fcecae3b82b")
 		)
 		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "#PWR07")
@@ -3218,6 +3566,12 @@
 			(uuid "8a7019a7-f597-4e41-b1b7-2bc7dcd007df")
 		)
 		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "J2")
@@ -3301,7 +3655,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "J7")
 					(unit 1)
 				)
@@ -3385,7 +3739,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -3469,7 +3823,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -3477,6 +3831,87 @@
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 148.59 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56ef63b7-5a5d-446e-864a-dc632fed3171")
+		(property "Reference" "J?"
+			(at 145.796 149.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V Battery"
+			(at 141.224 151.638 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 148.59 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5644007d-f3ca-48b9-a3c8-60ceea4979c7")
+		)
+		(pin "1"
+			(uuid "5a748a78-96cc-4e0b-9d00-9afe8331099a")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -3552,6 +3987,12 @@
 			(uuid "dba5fb38-7953-4d61-a8f4-de943a4d2488")
 		)
 		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "#PWR06")
@@ -3562,7 +4003,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 97.79 166.37 270)
+		(at 114.3 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3573,7 +4014,7 @@
 		(fields_autoplaced yes)
 		(uuid "80cffba8-166a-4615-999d-6477e8036956")
 		(property "Reference" "J4"
-			(at 99.06 164.4649 90)
+			(at 115.57 146.6849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3584,7 +4025,7 @@
 			)
 		)
 		(property "Value" "J1772 Plug"
-			(at 99.06 167.0049 90)
+			(at 115.57 149.2249 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3595,7 +4036,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
-			(at 97.79 166.37 0)
+			(at 114.3 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,7 +4047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 166.37 0)
+			(at 114.3 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3617,7 +4058,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 97.79 166.37 0)
+			(at 114.3 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3634,6 +4075,12 @@
 			(uuid "148fa326-4332-4c76-9902-bdff8cd57c4e")
 		)
 		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "J4")
@@ -3644,7 +4091,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 129.54 180)
+		(at 128.27 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3655,7 +4102,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b1665cd-0288-4cb3-9eef-59cb6a651e5f")
 		(property "Reference" "#PWR05"
-			(at 132.08 123.19 0)
+			(at 128.27 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +4113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 124.46 0)
+			(at 128.27 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3676,7 +4123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 129.54 0)
+			(at 128.27 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 129.54 0)
+			(at 128.27 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +4145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 129.54 0)
+			(at 128.27 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,6 +4159,12 @@
 			(uuid "671cbd74-fe8e-48a1-b470-e6807ad3ddeb")
 		)
 		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "#PWR05")
@@ -3722,7 +4175,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 139.7 147.32 270)
+		(at 135.89 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3733,7 +4186,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad813a11-35aa-4453-aede-1f6326366e33")
 		(property "Reference" "J3"
-			(at 138.43 149.86 90)
+			(at 134.62 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3743,7 +4196,7 @@
 			)
 		)
 		(property "Value" "Charger"
-			(at 138.43 152.4 90)
+			(at 134.62 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3753,7 +4206,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
-			(at 139.7 147.32 0)
+			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3764,7 +4217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 147.32 0)
+			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3775,7 +4228,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 139.7 147.32 0)
+			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,6 +4257,12 @@
 			(uuid "981f31f3-71cc-4a1c-8c10-9974a3bf7e4d")
 		)
 		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "J3")
@@ -3882,9 +4341,100 @@
 			(uuid "ea05519f-1695-4149-b4ab-af7adc73bfe9")
 		)
 		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 160.02 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7dffc94-0dc3-470c-b8d1-122b563a6dd8")
+		(property "Reference" "J?"
+			(at 160.528 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Power Switch"
+			(at 160.528 151.892 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 160.02 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0c2689cf-4a4d-41be-827f-ee853b92061a")
+		)
+		(pin "1"
+			(uuid "5a18b13b-17f2-45b5-bc54-ef6ae7b52df0")
+		)
+		(pin "4"
+			(uuid "f49c3194-7342-40db-bc65-36b873fc3bdd")
+		)
+		(pin "2"
+			(uuid "59334bdd-eaf6-41ce-a3ac-8d3a499912d0")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -3965,7 +4515,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "R2")
 					(unit 1)
 				)
@@ -4052,7 +4602,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "D1")
 					(unit 1)
 				)
@@ -4060,6 +4610,84 @@
 			(project "Junction PCB"
 				(path "/91b22f26-f9d7-4a2b-8173-dc701928d79d"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 137.16 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0bb9e1f-2fc1-4d93-a052-c439f6a5b5bc")
+		(property "Reference" "#PWR08"
+			(at 148.59 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e7b4e38-c093-4e01-af93-f3cc85049bf3")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4764,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -4244,7 +4872,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "D2")
 					(unit 1)
 				)
@@ -4332,7 +4960,7 @@
 		)
 		(instances
 			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/37a81acb-7a57-4259-903f-870230a418d1/a56e1ce8-18bc-4320-87c8-0a13c817c3cf"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "SW1")
 					(unit 1)
 				)
