@@ -1922,6 +1922,12 @@
 		(uuid "30328138-9441-4914-884b-787f71e51fda")
 	)
 	(junction
+		(at 127 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35de6988-c40b-4e1f-ba75-f103aa667057")
+	)
+	(junction
 		(at 41.91 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1963,6 +1969,12 @@
 		(color 0 0 0 0)
 		(uuid "9d088808-0d6b-4f1e-9895-ce316625af8b")
 	)
+	(junction
+		(at 149.86 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb2ec0e8-270a-4eb6-a196-a1bed8a67786")
+	)
 	(wire
 		(pts
 			(xy 137.16 66.04) (xy 137.16 53.34)
@@ -1985,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 118.11) (xy 162.56 118.11)
+			(xy 137.16 118.11) (xy 149.86 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2002,6 +2014,16 @@
 			(type default)
 		)
 		(uuid "0dbd2bd7-3982-4279-bd58-6eb6a2bdf6bd")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ea9992-17c5-42a6-9b16-f14c553f67bd")
 	)
 	(wire
 		(pts
@@ -2032,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "3aaa8e36-7df3-440c-bdc5-7b99eab3adfe")
+	)
+	(wire
+		(pts
+			(xy 149.86 118.11) (xy 162.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1f6c05-8ec9-4924-af68-42c2133b1fb5")
 	)
 	(wire
 		(pts
@@ -2195,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 137.16 76.2)
+			(xy 116.84 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2594,6 +2626,84 @@
 			(project "J1772 BMS Master Side"
 				(path "/9ac60718-3a09-4afc-ab8e-18388a69420b"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d7aaa62-af92-447a-b01d-acfef278dc27")
+		(property "Reference" "#PWR010"
+			(at 127 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97515fc2-d1a6-45bd-b55b-887f3f97645f")
+		)
+		(instances
+			(project "J1772 BMS Master Side"
+				(path "/9ac60718-3a09-4afc-ab8e-18388a69420b"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3402,6 +3512,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 127 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df051ae-a889-42af-883a-9108d8d83e38")
+		(property "Reference" "C?"
+			(at 130.81 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 130.81 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.9652 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c10cef71-65aa-4326-a033-467c5080ff74")
+		)
+		(pin "2"
+			(uuid "ec1a795e-a0a9-4c04-aa64-c165f4d10b0e")
+		)
+		(instances
+			(project "J1772 BMS Master Side"
+				(path "/9ac60718-3a09-4afc-ab8e-18388a69420b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 116.84 81.28 180)
 		(unit 1)
@@ -3642,6 +3834,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c572f203-3c67-4266-b6ed-a056017ec42c")
+		(property "Reference" "#PWR011"
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06258782-8d98-4be8-861c-b498ab74a39d")
+		)
+		(instances
+			(project "J1772 BMS Master Side"
+				(path "/9ac60718-3a09-4afc-ab8e-18388a69420b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TLV9002IDR:TLV9002IDR")
 		(at 149.86 73.66 0)
 		(unit 1)
@@ -3868,6 +4138,88 @@
 			(project "J1772 BMS Master Side"
 				(path "/9ac60718-3a09-4afc-ab8e-18388a69420b"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6a510df-1aa0-4db2-a420-c750ba040880")
+		(property "Reference" "C?"
+			(at 153.67 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 153.67 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 150.8252 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "833a8ac9-8e22-44f0-929c-9ae7ccb6c523")
+		)
+		(pin "2"
+			(uuid "b1648327-130e-4d60-975d-bf482cb793a9")
+		)
+		(instances
+			(project "J1772 BMS Master Side"
+				(path "/9ac60718-3a09-4afc-ab8e-18388a69420b"
+					(reference "C?")
 					(unit 1)
 				)
 			)
