@@ -4496,556 +4496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "junction_pcb:4043B")
-		(at 135.89 55.88 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22d8855d-372b-479d-b127-c1741e642450")
-		(property "Reference" "U1"
-			(at 135.89 50.8 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CD4043"
-			(at 140.716 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4043b.pdf"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad NOR R/S Latch"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Digikey"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height (mm)" "1.2"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Length (mm)" "5"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CD4043BPWR"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Max Power (W)" "0.5"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Nominal Power (W)" "0.12"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Voltage (V)" "12"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package Type" "SMD"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.82"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Shutdown Latches"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Quantity" "1"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com/short/3m54t2h2"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Width (mm)" "6.4"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "06966e32-0013-4e72-9bb6-69d3cde15886")
-		)
-		(pin "3"
-			(uuid "acfc8ff8-2fac-4e2e-86c9-e8626cfaf59a")
-		)
-		(pin "8"
-			(uuid "605d495b-6131-476f-8a0c-4cab73e8cd5e")
-		)
-		(pin "7"
-			(uuid "5fcb20f3-dfb3-4195-93a3-15ef15f79ebd")
-		)
-		(pin "14"
-			(uuid "aadae43f-7eb5-4466-825e-6a3b1e63b942")
-		)
-		(pin "12"
-			(uuid "806b6548-3443-445b-ab28-6350ca75ffd1")
-		)
-		(pin "11"
-			(uuid "ea763244-1f8f-4732-892b-26c90c38a1b7")
-		)
-		(pin "2"
-			(uuid "da37b790-063e-4ef6-b091-58ced81019db")
-		)
-		(pin "5"
-			(uuid "9b4b433f-580b-4dd3-94b3-08993d7b4d55")
-		)
-		(pin "1"
-			(uuid "a20fa75d-654c-4fa6-bf7c-df7282d5cecd")
-		)
-		(pin "10"
-			(uuid "1bbd7b67-3f11-40c6-8548-9e3a14c2a13d")
-		)
-		(pin "6"
-			(uuid "05cd7f91-c956-49a6-bfaa-803cbf9c44b3")
-		)
-		(pin "13"
-			(uuid "cd6b3940-9ad3-4dae-a110-b15d930ed170")
-		)
-		(pin "16"
-			(uuid "f8b9eef2-0e55-475c-a29d-a3076fa35082")
-		)
-		(pin "15"
-			(uuid "20d7ea01-0146-4067-bd7b-c0b0a72570f8")
-		)
-		(pin "4"
-			(uuid "7f292848-3a3b-4d05-b055-b341be59bd13")
-		)
-		(instances
-			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "junction_pcb:4043B")
-		(at 135.89 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "325c45cd-c048-4635-8e37-e85a68816d0c")
-		(property "Reference" "U1"
-			(at 135.89 31.75 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CD4043"
-			(at 140.716 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4043b.pdf"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad NOR R/S Latch"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Digikey"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height (mm)" "1.2"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Length (mm)" "5"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CD4043BPWR"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Max Power (W)" "0.5"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Nominal Power (W)" "0.12"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Voltage (V)" "12"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package Type" "SMD"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.82"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Shutdown Latches"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Quantity" "1"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com/short/3m54t2h2"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Width (mm)" "6.4"
-			(at 135.89 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "f152a295-4c8f-4be4-8880-b81c40842794")
-		)
-		(pin "3"
-			(uuid "43284f99-4b12-456d-b038-22d44f908c94")
-		)
-		(pin "8"
-			(uuid "605d495b-6131-476f-8a0c-4cab73e8cd61")
-		)
-		(pin "7"
-			(uuid "d65feab4-6ccb-45f4-acfd-e2f014781057")
-		)
-		(pin "14"
-			(uuid "aadae43f-7eb5-4466-825e-6a3b1e63b945")
-		)
-		(pin "12"
-			(uuid "806b6548-3443-445b-ab28-6350ca75ffd4")
-		)
-		(pin "11"
-			(uuid "ea763244-1f8f-4732-892b-26c90c38a1ba")
-		)
-		(pin "2"
-			(uuid "bfba0de9-4769-44b1-a458-fdd9e7f42d8c")
-		)
-		(pin "5"
-			(uuid "9b4b433f-580b-4dd3-94b3-08993d7b4d58")
-		)
-		(pin "1"
-			(uuid "a20fa75d-654c-4fa6-bf7c-df7282d5ced0")
-		)
-		(pin "10"
-			(uuid "1bbd7b67-3f11-40c6-8548-9e3a14c2a140")
-		)
-		(pin "6"
-			(uuid "a9fe38ce-935b-4a03-aa95-046e6635d70e")
-		)
-		(pin "13"
-			(uuid "cd6b3940-9ad3-4dae-a110-b15d930ed173")
-		)
-		(pin "16"
-			(uuid "f8b9eef2-0e55-475c-a29d-a3076fa35085")
-		)
-		(pin "15"
-			(uuid "20d7ea01-0146-4067-bd7b-c0b0a72570fb")
-		)
-		(pin "4"
-			(uuid "b1faa6de-73e8-4cb1-896f-af4b8b20ea29")
-		)
-		(instances
-			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 59.69 123.19 0)
 		(unit 1)
@@ -5118,6 +4568,128 @@
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
 					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "junction_pcb:4043B")
+		(at 135.89 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d6c82c9-5f25-40e8-b468-90545bedaaf8")
+		(property "Reference" "U1"
+			(at 135.89 31.75 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4043B"
+			(at 135.763 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 135.89 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "fa141fab-b328-4102-9040-e6c43e892366")
+		)
+		(pin "14"
+			(uuid "a009bcba-e13d-4683-8c06-c76b7f340bb8")
+		)
+		(pin "15"
+			(uuid "40c4cb39-d63c-4a83-ae12-562c619487a9")
+		)
+		(pin "2"
+			(uuid "cf80bd64-ed9d-46b4-a995-6d5a6d394819")
+		)
+		(pin "1"
+			(uuid "128979e1-5df8-41eb-8a48-7cfc6f4d3fd3")
+		)
+		(pin "11"
+			(uuid "7c34737a-793a-4b62-9a43-17820001d96c")
+		)
+		(pin "3"
+			(uuid "e5003291-939f-4a68-9751-42b46cbf4d34")
+		)
+		(pin "10"
+			(uuid "46fb50e5-0142-436f-be5d-910748ad035a")
+		)
+		(pin "4"
+			(uuid "df1acdbf-7fdd-4aed-bc8e-335776a621dc")
+		)
+		(pin "6"
+			(uuid "ed70b487-a273-4f72-923c-d5b918bd6251")
+		)
+		(pin "9"
+			(uuid "5e64687f-ed22-49c8-a5b1-4fb51a1c8d07")
+		)
+		(pin "12"
+			(uuid "49cb8ac5-4b87-49c5-b8f3-7aa774ab4359")
+		)
+		(pin "5"
+			(uuid "85f980de-884f-4b5d-b716-7d654027af49")
+		)
+		(pin "8"
+			(uuid "8a33d86b-3cdd-48e4-88fb-e3de6be8e9ec")
+		)
+		(pin "13"
+			(uuid "4d8bafab-207f-43f9-8ff8-20dd740a8707")
+		)
+		(pin "16"
+			(uuid "cb25a352-2cc3-4a22-b1aa-53221279bcf4")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5587,6 +5159,129 @@
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
 					(reference "#PWR0211")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "junction_pcb:4043B")
+		(at 55.88 48.26 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "710a69f5-e386-46c6-b4ba-dfca58cdc465")
+		(property "Reference" "U1"
+			(at 55.88 43.18 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4043B"
+			(at 62.23 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "fa141fab-b328-4102-9040-e6c43e892367")
+		)
+		(pin "14"
+			(uuid "a009bcba-e13d-4683-8c06-c76b7f340bb9")
+		)
+		(pin "15"
+			(uuid "40c4cb39-d63c-4a83-ae12-562c619487aa")
+		)
+		(pin "2"
+			(uuid "cf80bd64-ed9d-46b4-a995-6d5a6d39481a")
+		)
+		(pin "1"
+			(uuid "128979e1-5df8-41eb-8a48-7cfc6f4d3fd4")
+		)
+		(pin "11"
+			(uuid "7c34737a-793a-4b62-9a43-17820001d96d")
+		)
+		(pin "3"
+			(uuid "e5003291-939f-4a68-9751-42b46cbf4d35")
+		)
+		(pin "10"
+			(uuid "46fb50e5-0142-436f-be5d-910748ad035b")
+		)
+		(pin "4"
+			(uuid "df1acdbf-7fdd-4aed-bc8e-335776a621dd")
+		)
+		(pin "6"
+			(uuid "ed70b487-a273-4f72-923c-d5b918bd6252")
+		)
+		(pin "9"
+			(uuid "5e64687f-ed22-49c8-a5b1-4fb51a1c8d08")
+		)
+		(pin "12"
+			(uuid "49cb8ac5-4b87-49c5-b8f3-7aa774ab435a")
+		)
+		(pin "5"
+			(uuid "85f980de-884f-4b5d-b716-7d654027af4a")
+		)
+		(pin "8"
+			(uuid "8a33d86b-3cdd-48e4-88fb-e3de6be8e9ed")
+		)
+		(pin "13"
+			(uuid "4d8bafab-207f-43f9-8ff8-20dd740a8708")
+		)
+		(pin "16"
+			(uuid "cb25a352-2cc3-4a22-b1aa-53221279bcf5")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
+					(reference "U1")
+					(unit 5)
 				)
 			)
 		)
@@ -6251,6 +5946,128 @@
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
 					(reference "TP202")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "junction_pcb:4043B")
+		(at 135.89 55.88 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c9bf96-09cd-47f7-a480-205968c3f86c")
+		(property "Reference" "U1"
+			(at 135.89 50.8 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4043B"
+			(at 135.763 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 135.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "fa141fab-b328-4102-9040-e6c43e892368")
+		)
+		(pin "14"
+			(uuid "a009bcba-e13d-4683-8c06-c76b7f340bba")
+		)
+		(pin "15"
+			(uuid "40c4cb39-d63c-4a83-ae12-562c619487ab")
+		)
+		(pin "2"
+			(uuid "cf80bd64-ed9d-46b4-a995-6d5a6d39481b")
+		)
+		(pin "1"
+			(uuid "128979e1-5df8-41eb-8a48-7cfc6f4d3fd5")
+		)
+		(pin "11"
+			(uuid "7c34737a-793a-4b62-9a43-17820001d96e")
+		)
+		(pin "3"
+			(uuid "e5003291-939f-4a68-9751-42b46cbf4d36")
+		)
+		(pin "10"
+			(uuid "46fb50e5-0142-436f-be5d-910748ad035c")
+		)
+		(pin "4"
+			(uuid "df1acdbf-7fdd-4aed-bc8e-335776a621de")
+		)
+		(pin "6"
+			(uuid "ed70b487-a273-4f72-923c-d5b918bd6253")
+		)
+		(pin "9"
+			(uuid "5e64687f-ed22-49c8-a5b1-4fb51a1c8d09")
+		)
+		(pin "12"
+			(uuid "49cb8ac5-4b87-49c5-b8f3-7aa774ab435b")
+		)
+		(pin "5"
+			(uuid "85f980de-884f-4b5d-b716-7d654027af4b")
+		)
+		(pin "8"
+			(uuid "8a33d86b-3cdd-48e4-88fb-e3de6be8e9ee")
+		)
+		(pin "13"
+			(uuid "4d8bafab-207f-43f9-8ff8-20dd740a8709")
+		)
+		(pin "16"
+			(uuid "cb25a352-2cc3-4a22-b1aa-53221279bcf6")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -7386,282 +7203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "junction_pcb:4043B")
-		(at 55.88 48.26 0)
-		(unit 5)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bba0faac-ebfa-41f9-b1d5-e2e6cba604c0")
-		(property "Reference" "U1"
-			(at 64.77 53.848 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CD4043"
-			(at 62.23 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4043b.pdf"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad NOR R/S Latch"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Digikey"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height (mm)" "1.2"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Length (mm)" "5"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CD4043BPWR"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Max Power (W)" "0.5"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Nominal Power (W)" "0.12"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Voltage (V)" "12"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package Type" "SMD"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.82"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Shutdown Latches"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Quantity" "1"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com/short/3m54t2h2"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Width (mm)" "6.4"
-			(at 55.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "f152a295-4c8f-4be4-8880-b81c40842792")
-		)
-		(pin "3"
-			(uuid "acfc8ff8-2fac-4e2e-86c9-e8626cfaf59b")
-		)
-		(pin "8"
-			(uuid "e932a0c1-0759-4010-a966-78e961f3910c")
-		)
-		(pin "7"
-			(uuid "d65feab4-6ccb-45f4-acfd-e2f014781055")
-		)
-		(pin "14"
-			(uuid "aadae43f-7eb5-4466-825e-6a3b1e63b943")
-		)
-		(pin "12"
-			(uuid "806b6548-3443-445b-ab28-6350ca75ffd2")
-		)
-		(pin "11"
-			(uuid "ea763244-1f8f-4732-892b-26c90c38a1b8")
-		)
-		(pin "2"
-			(uuid "da37b790-063e-4ef6-b091-58ced81019dc")
-		)
-		(pin "5"
-			(uuid "080417a7-67c9-44ce-b9f5-31ab51be9a85")
-		)
-		(pin "1"
-			(uuid "a20fa75d-654c-4fa6-bf7c-df7282d5cece")
-		)
-		(pin "10"
-			(uuid "1bbd7b67-3f11-40c6-8548-9e3a14c2a13e")
-		)
-		(pin "6"
-			(uuid "a9fe38ce-935b-4a03-aa95-046e6635d70c")
-		)
-		(pin "13"
-			(uuid "de1ca59d-6edd-48ef-bb33-f21e9e60f9a8")
-		)
-		(pin "16"
-			(uuid "822b4321-4389-4bcd-a54e-0e44ad8e3d6f")
-		)
-		(pin "15"
-			(uuid "20d7ea01-0146-4067-bd7b-c0b0a72570f9")
-		)
-		(pin "4"
-			(uuid "7f292848-3a3b-4d05-b055-b341be59bd14")
-		)
-		(instances
-			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
-					(reference "U1")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 128.27 139.7 0)
 		(unit 1)
@@ -8114,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 37.7952 59.69 0)
 			(hide yes)
 			(show_name no)
