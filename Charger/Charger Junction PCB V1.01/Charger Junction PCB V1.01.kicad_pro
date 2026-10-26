@@ -571,34 +571,34 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -634,6 +634,90 @@
           "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Voltage (V)",
+          "name": "Operating Voltage (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package Type",
+          "name": "Package Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose",
+          "name": "Purpose",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Quantity",
+          "name": "Quantity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Nominal Power (W)",
+          "name": "Nominal Power (W)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max Power (W)",
+          "name": "Max Power (W)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "URL",
+          "name": "URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Width (mm)",
+          "name": "Width (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height (mm)",
+          "name": "Height (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Length (mm)",
+          "name": "Length (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
           "show": false
         }
       ],
@@ -685,7 +769,7 @@
         "uuid": "75f6fa4d-fba8-4d29-9299-863888d8bb95"
       }
     ],
-    "used_designators": "J1-10,R1-6,#PWR1-4,#PWR6,#PWR8-22,D1-4,SW1,C1,Q1-2,U1-2,K1-2,CR1",
+    "used_designators": "J1-10,R1-6,#PWR1-4,#PWR6,#PWR8-24,D1-7,SW1,C1,Q1-3,U1-2,K1-2,CR1",
     "variants": []
   },
   "sheets": [

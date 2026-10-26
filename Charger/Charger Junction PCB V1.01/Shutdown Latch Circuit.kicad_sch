@@ -1184,7 +1184,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GSD"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1205,7 +1205,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_GSD"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1216,8 +1216,21 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1225,9 +1238,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1238,7 +1252,7 @@
 					)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1249,7 +1263,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1260,7 +1274,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GSD_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1427,7 +1441,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GSD_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3184,12 +3198,6 @@
 		(uuid "e37a9058-1492-4190-a99a-ec1d08d62bfb")
 	)
 	(junction
-		(at 59.69 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1af6ac17-fedd-43c4-ab90-45e7c87facb6")
-	)
-	(junction
 		(at 92.71 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3218,6 +3226,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "794496a4-08ce-4993-8c37-11bba6b9623b")
+	)
+	(junction
+		(at 59.69 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ab8610b-701c-4d9f-8011-4438260f3d2b")
 	)
 	(junction
 		(at 77.47 146.05)
@@ -4125,6 +4139,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 57.15 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12f4b27c-4b15-4d58-8ce5-eb742b61d76d")
+		(property "Reference" "Q3"
+			(at 63.5 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 63.5 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 62.23 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 62.23 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 57.15 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "34da7ab8-6925-43cd-b8cc-795d5292377f")
+		)
+		(pin "2"
+			(uuid "7b11bf24-7e63-4d29-b0a7-d968480a0de6")
+		)
+		(pin "1"
+			(uuid "0aa63cf9-b7fb-4b5c-8af1-800410afb362")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 74.93 105.41 0)
 		(unit 1)
@@ -4583,7 +4685,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d6c82c9-5f25-40e8-b468-90545bedaaf8")
 		(property "Reference" "U1"
 			(at 135.89 31.75 0)
@@ -4596,7 +4697,7 @@
 			)
 		)
 		(property "Value" "CD4043B"
-			(at 135.763 30.48 0)
+			(at 135.636 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5365,244 +5466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 57.15 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79c1c145-d84f-47b5-88bb-85da0e336d9f")
-		(property "Reference" "Q202"
-			(at 60.452 133.604 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "A03400A"
-			(at 60.706 140.208 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 62.23 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138P.pdf"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Digikey"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height (mm)" "1.1"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Length (mm)" "3"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSS138P,215"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Max Power (W)" ".35"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Nominal Power (W)" ""
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Voltage (V)" ""
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package Type" "SOT-23"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" ""
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Quantity" "1"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/BSS138P-215/2779827"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Width (mm)" "2.5"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.21"
-			(at 57.15 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7dd6bd0c-96fe-43e1-8dc7-468fa6953419")
-		)
-		(pin "2"
-			(uuid "455168d2-51dc-4e5b-9e4b-59ca5500a743")
-		)
-		(pin "3"
-			(uuid "f1166fb9-6798-47e9-b2cf-f95dacdcf09e")
-		)
-		(instances
-			(project "Charger Junction PCB V1.01"
-				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95/ff12ffa7-fa4b-4c9b-853c-6398452d650b"
-					(reference "Q202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 115.57 33.02 0)
 		(mirror y)
@@ -5960,7 +5823,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82c9bf96-09cd-47f7-a480-205968c3f86c")
 		(property "Reference" "U1"
 			(at 135.89 50.8 0)
@@ -5973,7 +5835,7 @@
 			)
 		)
 		(property "Value" "CD4043B"
-			(at 135.763 49.53 0)
+			(at 135.636 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
