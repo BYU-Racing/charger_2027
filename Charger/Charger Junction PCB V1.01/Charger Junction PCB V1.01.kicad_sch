@@ -2038,6 +2038,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Keystone 3557-2 Fuse Holder:3557-2"
 			(body_styles demorgan)
 			(pin_names
@@ -4417,22 +4583,28 @@
 		(uuid "1a109550-50b4-421d-bb92-913d0eaf35cd")
 	)
 	(junction
+		(at 62.23 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3393268e-7216-42f7-a0ef-e7c239068ae8")
+	)
+	(junction
 		(at 123.19 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63a3384d-595e-4e2d-9a5f-63d41f76d3d4")
 	)
 	(junction
+		(at 95.25 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "690b96ad-a331-4b15-914d-6b2c06363187")
+	)
+	(junction
 		(at 97.79 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7aaf82c5-bc6b-4dfe-8fa2-3faeb9e466ae")
-	)
-	(junction
-		(at 62.23 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82577b2c-32a9-44f9-81ed-7b32c9d3de6a")
 	)
 	(junction
 		(at 97.79 171.45)
@@ -4445,12 +4617,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89dc11a4-c847-4e9e-b0c8-d2acda124c81")
-	)
-	(junction
-		(at 62.23 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "908b52a8-c8c1-4884-adac-c1636190ba24")
 	)
 	(junction
 		(at 130.81 135.89)
@@ -4469,6 +4635,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3dfdb99-e7cc-443b-bcb4-37d877c17343")
+	)
+	(junction
+		(at 63.5 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bccef781-c934-4977-9ce2-8faecb99717a")
 	)
 	(junction
 		(at 137.16 30.48)
@@ -4493,6 +4665,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dace1181-6ab5-41ca-8d82-72a639c2fcdf")
+	)
+	(junction
+		(at 62.23 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac891ea-e557-4856-b833-59564fe65a50")
 	)
 	(junction
 		(at 163.83 105.41)
@@ -4551,6 +4729,16 @@
 			(type default)
 		)
 		(uuid "037358d7-3661-4ebc-9d52-a39e8df5f243")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb78909-c58a-4a98-a82b-a319bc92c8b2")
 	)
 	(wire
 		(pts
@@ -4614,6 +4802,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 69.85) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f414fd6-6c7a-4b85-bbda-15059a996c35")
+	)
+	(wire
+		(pts
 			(xy 132.08 102.87) (xy 114.3 102.87)
 		)
 		(stroke
@@ -4671,16 +4869,6 @@
 			(type default)
 		)
 		(uuid "2ac44bf2-69cf-4210-b03e-2ea28509bdf6")
-	)
-	(wire
-		(pts
-			(xy 62.23 53.34) (xy 62.23 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b7a2093-deff-460f-80f2-321966c7b558")
 	)
 	(wire
 		(pts
@@ -4801,16 +4989,6 @@
 			(type default)
 		)
 		(uuid "434f972e-bdd0-4814-8a2d-3efa108fb30d")
-	)
-	(wire
-		(pts
-			(xy 62.23 55.88) (xy 62.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "452714fc-c592-4556-8c4a-2501e81e3710")
 	)
 	(wire
 		(pts
@@ -5034,6 +5212,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 45.72) (xy 93.98 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72afcd86-c3ff-4566-9074-c1d8e9b19769")
+	)
+	(wire
+		(pts
 			(xy 207.01 128.27) (xy 210.82 128.27)
 		)
 		(stroke
@@ -5041,6 +5229,16 @@
 			(type default)
 		)
 		(uuid "72e175c9-d0d5-4f57-a504-bce2dea3b324")
+	)
+	(wire
+		(pts
+			(xy 62.23 43.18) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fceda7-d38a-47a1-833f-ad84f4a494b8")
 	)
 	(wire
 		(pts
@@ -5121,6 +5319,16 @@
 			(type default)
 		)
 		(uuid "7c0b6833-01e8-42e6-9b3c-a071f0a89f7b")
+	)
+	(wire
+		(pts
+			(xy 63.5 43.18) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c940051-d078-48d2-9f51-b0c43eacdf30")
 	)
 	(wire
 		(pts
@@ -5334,16 +5542,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 55.88) (xy 92.71 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae4f4bd9-3853-445e-86da-cf862283fd93")
-	)
-	(wire
-		(pts
 			(xy 139.7 101.6) (xy 139.7 106.68)
 		)
 		(stroke
@@ -5394,6 +5592,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ac73ab-1206-44e2-90a5-05c544e32d9b")
+	)
+	(wire
+		(pts
 			(xy 116.84 128.27) (xy 130.81 128.27)
 		)
 		(stroke
@@ -5401,6 +5609,16 @@
 			(type default)
 		)
 		(uuid "b81dd268-e4c3-4298-bc47-b3a3fda32da0")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 62.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83c7ad8-4e6d-4022-bec1-a5da281a5a44")
 	)
 	(wire
 		(pts
@@ -5541,6 +5759,16 @@
 			(type default)
 		)
 		(uuid "e0b131db-dd65-4620-b879-a4c40d9dda89")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 72.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15ae887-45bc-4a05-b4b5-2d4adc2beb44")
 	)
 	(wire
 		(pts
@@ -6380,7 +6608,7 @@
 	)
 	(symbol
 		(lib_id "PMEG045V100EPE-QZ:PMEG100V080ELPDZ")
-		(at 62.23 53.34 0)
+		(at 63.5 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6390,7 +6618,7 @@
 		(dnp no)
 		(uuid "300d6ab6-5559-42b8-adc6-f1d10c948bdc")
 		(property "Reference" "D4"
-			(at 77.47 46.99 0)
+			(at 78.74 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6400,7 +6628,7 @@
 			)
 		)
 		(property "Value" "PMEG045V100EPE-QZ"
-			(at 77.47 49.784 0)
+			(at 78.74 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6410,7 +6638,7 @@
 			)
 		)
 		(property "Footprint" "Charger PCB:SOT1289_CFP15_NEX"
-			(at 62.23 53.34 0)
+			(at 63.5 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,7 +6650,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG045V100EPE-Q.pdf"
-			(at 62.23 53.34 0)
+			(at 63.5 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +6662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 53.34 0)
+			(at 63.5 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8749,6 +8977,86 @@
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 77.47 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d58aa356-bf9c-4f3e-ba7c-d1ba1b343681")
+		(property "Reference" "JP?"
+			(at 77.47 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Diode Bypass Jumper"
+			(at 77.47 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 77.47 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b91746c0-adf1-4891-b2ce-97b2961f8098")
+		)
+		(pin "1"
+			(uuid "0813051d-71af-4700-8077-e2b09ada43ea")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "JP?")
 					(unit 1)
 				)
 			)
