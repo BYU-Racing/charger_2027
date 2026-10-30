@@ -9019,8 +9019,9 @@
 			)
 		)
 	)
-
+	(symbol
 		(lib_id "power:GND")
+		(at 229.87 135.89 0)
 		(at 229.87 135.89 0)
 		(unit 1)
 		(body_style 1)
