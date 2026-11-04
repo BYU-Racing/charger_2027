@@ -1,0 +1,5 @@
+Design Review Agenda Items
+- Schedule budget review for next Tuesday
+- Possibly substitute schottky diode for silicon diode
+- Add LPF to CP input
+- Add capacitor to PP input
