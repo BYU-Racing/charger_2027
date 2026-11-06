@@ -6114,10 +6114,13 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13b82817-803c-4b55-9177-2cce5cb2bf3e")
 		(property "Reference" "J8"
+<<<<<<< HEAD
 			(at 133.35 115.57 90)
+=======
+			(at 119.634 115.316 90)
+>>>>>>> 4a641e0c7c60aacda196a6d80fba2b36f7ffe4d4
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6127,7 +6130,7 @@
 			)
 		)
 		(property "Value" "Tractive Battery Connector"
-			(at 133.35 118.11 90)
+			(at 135.636 115.316 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6136,7 +6139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Charger PCB:DT13-12"
 			(at 134.62 113.03 0)
 			(hide yes)
 			(show_name no)
