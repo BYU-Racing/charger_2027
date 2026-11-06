@@ -1,0 +1,167 @@
+(footprint "SPST_ELC_shop_switch_10x16mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
+	(tags "switch single-pole opposite-side-connection double-throw SPDT würth wurth")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "d5d45247-bb09-41b1-95c7-06b62e2e7506")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPST_ELC_shop_switch_10x16mm"
+		(at 0 8 0)
+		(layer "F.Fab")
+		(uuid "a3e6f290-f82d-4bbf-bdad-d70b1750b95c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef439471-09cc-4dcc-ac97-ac7b3b906ddc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b23991f-dde9-42aa-b4b0-d2adc105fd0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -8 -2.5)
+		(end 8 3.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4704ad59-2d17-4988-883e-e3a1a8684d6c")
+	)
+	(fp_rect
+		(start -11 -2.5)
+		(end 10.5 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "65870001-7cc4-41d2-9afd-bd93e59e2cff")
+	)
+	(fp_rect
+		(start -8 -2.5)
+		(end 8 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "82294e9a-f71f-4217-8081-5ed25c7e8838")
+	)
+	(fp_text user "*"
+		(at -5.5 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "599b44d3-e1b8-4188-b30c-c6ef7bf1d352")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SPST_ELC_shop_switch_10x16mm"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "11f2906b-1862-4dcb-b4a3-9124707e22a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "d67f84ca-c710-478d-864c-8539e15e359e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.4 1.6)
+		(drill oval 1.6 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "da436a6f-d497-4605-9d5d-21f141bc4ae4")
+	)
+	(pad "2" thru_hole roundrect
+		(at -3.5 0)
+		(size 2.4 1.6)
+		(drill oval 1.6 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(thermal_bridge_angle 45)
+		(uuid "17fe59de-d165-4873-9b49-45920ab7091f")
+	)
+	(pad "3" thru_hole roundrect
+		(at 3.5 0)
+		(size 2.4 1.6)
+		(drill oval 1.6 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(thermal_bridge_angle 45)
+		(uuid "a1af7e8a-be72-4db4-b9ea-61de3a2a2283")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
