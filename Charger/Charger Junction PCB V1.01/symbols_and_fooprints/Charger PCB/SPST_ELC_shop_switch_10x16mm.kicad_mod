@@ -6,9 +6,9 @@
 	(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
 	(tags "switch single-pole opposite-side-connection double-throw SPDT würth wurth")
 	(property "Reference" "REF**"
-		(at 0 -4 0)
+		(at 0 -5.4 0)
 		(layer "F.SilkS")
-		(uuid "d5d45247-bb09-41b1-95c7-06b62e2e7506")
+		(uuid "d1030493-4178-441a-b69d-22c5c31df413")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "SPST_ELC_shop_switch_10x16mm"
 		(at 0 8 0)
 		(layer "F.Fab")
-		(uuid "a3e6f290-f82d-4bbf-bdad-d70b1750b95c")
+		(uuid "e0b696f6-0f9d-44ed-84ae-82ebe1c0f775")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ef439471-09cc-4dcc-ac97-ac7b3b906ddc")
+		(uuid "bda111fd-839c-42e7-b498-804f8e5cfac4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6b23991f-dde9-42aa-b4b0-d2adc105fd0f")
+		(uuid "50671911-e37d-438c-82ea-20a0051506e7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,57 +55,213 @@
 	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -12.7 1)
+		(end -12.7 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c0d115b-8d45-4633-91c5-921f71d92e1e")
+	)
+	(fp_line
+		(start -12.7 1)
+		(end -12.7 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "612181f3-c394-4b57-9650-0fb050029e28")
+	)
+	(fp_line
+		(start 12.7 1.2)
+		(end 12.7 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37ea8c76-4fbf-44ce-85ed-4463ea5e74b3")
+	)
+	(fp_line
+		(start 12.7 1.2)
+		(end 12.7 4.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7374cde0-4753-4585-aee8-1ee33a6d30a7")
+	)
 	(fp_rect
-		(start -8 -2.5)
-		(end 8 3.5)
+		(start -8 -4)
+		(end 8 6)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4704ad59-2d17-4988-883e-e3a1a8684d6c")
+		(uuid "da993d9f-2a79-4ca3-ac2b-488d0324bc63")
 	)
-	(fp_rect
-		(start -11 -2.5)
-		(end 10.5 3.5)
+	(fp_poly
+		(pts
+			(xy -5.48 -5.57) (xy -3.97 -5.57) (xy -3.97 -5.55) (xy -4.699999 -4.58) (xy -4.700002 -4.58)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b331f2e6-da47-4534-bc60-f5b8e117bd0a")
+	)
+	(fp_curve
+		(pts
+			(xy -12.7 -2) (xy -8 -4) (xy -8 -4) (xy -8 -4)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "453d71a4-b7b2-44ce-94ab-708458790989")
+	)
+	(fp_curve
+		(pts
+			(xy -8 6) (xy -12.7 4) (xy -12.7 4) (xy -12.7 4)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a8296b63-92ee-4fad-93d0-216b1fc7ddb8")
+	)
+	(fp_curve
+		(pts
+			(xy 8 -4) (xy 12.7 -1.8) (xy 12.7 -1.8) (xy 12.7 -1.8)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a7219621-9108-4ec2-b47d-0d9ab14f7389")
+	)
+	(fp_curve
+		(pts
+			(xy 8 6) (xy 12.7 4.2) (xy 12.7 4.2) (xy 12.7 4.2)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb7f8973-ae42-4257-9ed5-87bf49debab7")
+	)
+	(fp_line
+		(start -12.7 -2)
+		(end -12.7 4)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "F.CrtYd")
-		(uuid "65870001-7cc4-41d2-9afd-bd93e59e2cff")
+		(uuid "fd9e5f53-2e8b-451b-8418-9d7065b2bcc1")
+	)
+	(fp_line
+		(start -8 -4)
+		(end 8 -4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "33ff2e9b-5451-470d-91e7-da98bcd3b9a5")
+	)
+	(fp_line
+		(start -8 6)
+		(end 8 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a22967f-c3fb-4119-9ae1-35158289b041")
+	)
+	(fp_line
+		(start 12.7 -1.8)
+		(end 12.7 4.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d2e8153-67d5-42cd-a89b-cfddca2e1962")
+	)
+	(fp_curve
+		(pts
+			(xy -12.7 4) (xy -8 6) (xy -8 6) (xy -8 6)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "79f50a33-5fb6-4304-9177-7b7c35b06feb")
+	)
+	(fp_curve
+		(pts
+			(xy -8 -4) (xy -12.7 -2) (xy -12.7 -2) (xy -12.7 -2)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e248443-689b-4935-86b7-73326afb3424")
+	)
+	(fp_curve
+		(pts
+			(xy 8 -4) (xy 12.7 -1.8) (xy 12.7 -1.8) (xy 12.7 -1.8)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e12657aa-ff96-453c-9837-042c03cae2f5")
+	)
+	(fp_curve
+		(pts
+			(xy 8 6) (xy 12.7 4.2) (xy 12.7 4.2) (xy 12.7 4.2)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "878bdddb-42c0-4b1e-91c1-53128141501b")
 	)
 	(fp_rect
-		(start -8 -2.5)
-		(end 8 3.5)
+		(start -8 -4)
+		(end 8 6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "82294e9a-f71f-4217-8081-5ed25c7e8838")
-	)
-	(fp_text user "*"
-		(at -5.5 0 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "599b44d3-e1b8-4188-b30c-c6ef7bf1d352")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
+		(uuid "359991b7-f454-4aac-96b1-01ab74a5ecf4")
 	)
 	(fp_text user "SPST_ELC_shop_switch_10x16mm"
-		(at 0 6 0)
+		(at 0 10 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "11f2906b-1862-4dcb-b4a3-9124707e22a1")
+		(uuid "f1d615ab-9809-49d8-9d1a-968851ec2967")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -113,9 +269,9 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.5 0)
+		(at 0 12.5 0)
 		(layer "F.Fab")
-		(uuid "d67f84ca-c710-478d-864c-8539e15e359e")
+		(uuid "2770355c-bd9c-44e8-a76a-c4ccf7eda603")
 		(effects
 			(font
 				(size 1 1)
@@ -125,32 +281,32 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 2.4 1.6)
-		(drill oval 1.6 0.8)
+		(size 3.5 1.9)
+		(drill oval 2.5 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15625)
-		(uuid "da436a6f-d497-4605-9d5d-21f141bc4ae4")
+		(uuid "21a819cf-4854-4c46-8da1-ed489e7c0b11")
 	)
 	(pad "2" thru_hole roundrect
-		(at -3.5 0)
-		(size 2.4 1.6)
-		(drill oval 1.6 0.8)
+		(at -4.75 0)
+		(size 3.5 1.9)
+		(drill oval 2.5 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15625)
 		(thermal_bridge_angle 45)
-		(uuid "17fe59de-d165-4873-9b49-45920ab7091f")
+		(uuid "b17553fc-bc70-4c41-afa8-17faa69118c1")
 	)
 	(pad "3" thru_hole roundrect
-		(at 3.5 0)
-		(size 2.4 1.6)
-		(drill oval 1.6 0.8)
+		(at 4.75 0)
+		(size 3.5 1.9)
+		(drill oval 2.5 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15625)
 		(thermal_bridge_angle 45)
-		(uuid "a1af7e8a-be72-4db4-b9ea-61de3a2a2283")
+		(uuid "af915d8e-6ccf-404a-abb7-ea9de9b2ab1a")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.step"

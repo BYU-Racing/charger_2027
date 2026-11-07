@@ -1369,6 +1369,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4220,12 +4343,6 @@
 		(uuid "0849d33a-7c89-49d6-89a6-37d9e2de90f7")
 	)
 	(junction
-		(at 158.75 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a109550-50b4-421d-bb92-913d0eaf35cd")
-	)
-	(junction
 		(at 76.2 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4310,10 +4427,10 @@
 		(uuid "d662755b-cee9-471c-8aa7-9fde41cecce3")
 	)
 	(junction
-		(at 144.78 107.95)
+		(at 144.78 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dace1181-6ab5-41ca-8d82-72a639c2fcdf")
+		(uuid "dcb9b028-7f3f-417a-a013-17a7c3bd2236")
 	)
 	(junction
 		(at 62.23 69.85)
@@ -4326,6 +4443,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa773c07-0532-4285-9b7f-66df70f77100")
+	)
+	(junction
+		(at 166.37 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faeaa5ce-af9e-4487-8cf3-c26475918427")
 	)
 	(no_connect
 		(at 41.91 161.29)
@@ -4352,12 +4475,20 @@
 		(uuid "95b85924-938b-4923-94b2-5a98eaafd22e")
 	)
 	(no_connect
+		(at 46.99 102.87)
+		(uuid "a5bff6b0-f977-46d6-82ed-5002e048d458")
+	)
+	(no_connect
 		(at 41.91 146.05)
 		(uuid "aca18d18-fc94-483d-bd21-7ba0ec7a2c5a")
 	)
 	(no_connect
 		(at 41.91 151.13)
 		(uuid "af71d7d3-f6db-4b92-a2fd-934df83a444b")
+	)
+	(no_connect
+		(at 64.77 102.87)
+		(uuid "d7af187b-7451-4490-808e-1fa785704f11")
 	)
 	(wire
 		(pts
@@ -4491,6 +4622,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 107.95) (xy 140.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a7584c-0aac-41fe-aced-91353cd37761")
+	)
+	(wire
+		(pts
 			(xy 57.15 95.25) (xy 57.15 102.87)
 		)
 		(stroke
@@ -4508,16 +4649,6 @@
 			(type default)
 		)
 		(uuid "2645ade0-98ea-402b-925d-87c9ebba12ea")
-	)
-	(wire
-		(pts
-			(xy 158.75 102.87) (xy 158.75 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274304ce-3e77-4206-b006-23bb9b7f40e6")
 	)
 	(wire
 		(pts
@@ -4558,16 +4689,6 @@
 			(type default)
 		)
 		(uuid "30dad860-62eb-4be6-8793-840785527962")
-	)
-	(wire
-		(pts
-			(xy 158.75 80.01) (xy 177.8 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31745afa-7cca-4af8-9d7d-a3c597916bfe")
 	)
 	(wire
 		(pts
@@ -4621,13 +4742,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 107.95) (xy 144.78 107.95)
+			(xy 144.78 105.41) (xy 163.83 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e8069be-fe8b-431c-adbf-630c10b4ee13")
+		(uuid "3e32042e-b2c7-4f00-8b1f-f3b9de2222fd")
 	)
 	(wire
 		(pts
@@ -4648,6 +4769,16 @@
 			(type default)
 		)
 		(uuid "4004bdb0-257e-44a1-b616-b88b276be327")
+	)
+	(wire
+		(pts
+			(xy 142.24 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41735f55-2737-4466-a1df-ba0770e501b4")
 	)
 	(wire
 		(pts
@@ -4681,17 +4812,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 107.95) (xy 140.97 102.87)
+			(xy 140.97 102.87) (xy 144.78 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b7640f9-cb24-4208-b92b-733b086ec2a7")
+		(uuid "4aef0058-8dbf-4907-8b09-47d5beb22839")
 	)
 	(wire
 		(pts
-			(xy 166.37 92.71) (xy 166.37 106.68)
+			(xy 166.37 80.01) (xy 166.37 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4951,16 +5082,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 144.78 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77f7ca92-0591-421f-bc87-60807cf75ceb")
-	)
-	(wire
-		(pts
 			(xy 123.19 135.89) (xy 123.19 134.62)
 		)
 		(stroke
@@ -4968,6 +5089,16 @@
 			(type default)
 		)
 		(uuid "78893236-1ed0-4ad4-b330-c7e5af2745e6")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 144.78 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791a881c-4dbc-46e2-816d-4e15bf12501d")
 	)
 	(wire
 		(pts
@@ -5091,16 +5222,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 107.95) (xy 140.97 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a79f10-182d-4844-99d2-1081e4baa346")
-	)
-	(wire
-		(pts
 			(xy 41.91 86.36) (xy 41.91 102.87)
 		)
 		(stroke
@@ -5151,7 +5272,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 80.01) (xy 158.75 80.01)
+			(xy 97.79 80.01) (xy 166.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5221,16 +5342,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 102.87) (xy 158.75 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad88f72-a203-4f18-a63c-baad24b004d2")
-	)
-	(wire
-		(pts
 			(xy 59.69 95.25) (xy 59.69 102.87)
 		)
 		(stroke
@@ -5248,6 +5359,16 @@
 			(type default)
 		)
 		(uuid "ad78fca4-cc6c-432e-9ce7-ffbe28dc9ef4")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff88e73-4e75-472a-a951-a6f09612e024")
 	)
 	(wire
 		(pts
@@ -5371,6 +5492,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 80.01) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be19a3f1-2fb1-476b-81cc-9870ae9227a9")
+	)
+	(wire
+		(pts
 			(xy 212.09 93.98) (xy 212.09 102.87)
 		)
 		(stroke
@@ -5378,6 +5509,16 @@
 			(type default)
 		)
 		(uuid "c1fd9f91-a385-480d-899e-1e815f3c504f")
+	)
+	(wire
+		(pts
+			(xy 142.24 105.41) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58aa1b5-f3fe-43d5-a672-c47a94851e2c")
 	)
 	(wire
 		(pts
@@ -5408,16 +5549,6 @@
 			(type default)
 		)
 		(uuid "ce9b655d-f1f2-4db5-9b63-282a7e679d07")
-	)
-	(wire
-		(pts
-			(xy 144.78 105.41) (xy 144.78 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cea4ae8a-bd05-459c-b37e-8fd79c627239")
 	)
 	(wire
 		(pts
@@ -5468,6 +5599,16 @@
 			(type default)
 		)
 		(uuid "e5d8fc02-2a1d-4c55-9ded-c66d1731247a")
+	)
+	(wire
+		(pts
+			(xy 140.97 107.95) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e669e0a9-9416-42d5-a74d-c6ab5b809d1b")
 	)
 	(wire
 		(pts
@@ -5820,7 +5961,7 @@
 		(uuid "da2ddcf3-3a1b-4222-acdf-fa387124f3cd")
 	)
 	(label "TS_HVIL_OUT"
-		(at 166.37 92.71 270)
+		(at 144.78 90.17 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5949,7 +6090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7c10f6-ccea-4f28-8492-2f8454141231")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR012"
 			(at 163.83 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6010,7 +6151,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR07")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6034,7 +6175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc4f6fd-696b-4406-b1ec-e239a652df94")
-		(property "Reference" "J9"
+		(property "Reference" "J7"
 			(at 195.58 106.0449 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +6239,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "J9")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13b82817-803c-4b55-9177-2cce5cb2bf3e")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 119.634 115.316 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,7 +6348,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6224,7 +6365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18e78bf5-5216-44ba-a292-c751ada848ac")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 118.364 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6288,7 +6429,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6305,7 +6446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "300d6ab6-5559-42b8-adc6-f1d10c948bdc")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 78.74 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,7 +6513,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6390,7 +6531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f02125-c8ff-4faf-8f85-72c44990074d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 60.96 176.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6477,7 +6618,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6572,6 +6713,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3950ba2d-cd79-432b-9cef-8fccc1a498a0")
+		(property "Reference" "TP1"
+			(at 113.284 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.538 25.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 127 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d17b089c-8833-43c8-92f4-c4c0af44f774")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Charger PCB:VTVS5V0ASMF-HM3-08")
 		(at 130.81 132.08 270)
 		(unit 1)
@@ -6583,7 +6802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b052aff-4502-4d8f-a4c4-5c9db945e197")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 133.35 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6647,7 +6866,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6665,7 +6884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bb19030-32da-418f-9afb-3350b3c9a841")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 53.34 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +6954,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6753,7 +6972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb97cab-51dc-473f-9b2c-23df655a9d7c")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 179.07 106.0449 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6817,7 +7036,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6929,6 +7148,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45c48550-f515-401c-a54d-2cb2e8f0f4b4")
+		(property "Reference" "TP2"
+			(at 150.622 22.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 150.622 24.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 156.21 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98a7617d-8900-4906-9f3a-65e0607a5a96")
+		)
+		(instances
+			(project "Charger Junction PCB V1.01"
+				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 40.64 0)
 		(unit 1)
@@ -6940,7 +7237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4614cfad-2b15-4273-b0f8-7dac8587343e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 137.16 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7000,7 +7297,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7024,7 +7321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555767c0-fb38-4795-b53a-2c3e4ded6147")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR011"
 			(at 151.13 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7084,7 +7381,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR03")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7187,7 +7484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59389857-890a-417a-a036-e1ea855d8cb5")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 211.328 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7252,7 +7549,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7270,7 +7567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59fcbfc5-e9af-4d82-90e1-f41d5eb62426")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR09"
 			(at 130.81 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7331,7 +7628,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR023")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7349,7 +7646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "675b01e2-37c5-496b-89be-85de50e45680")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR013"
 			(at 191.77 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7409,7 +7706,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR019")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7427,7 +7724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bfc3850-e09b-4827-b179-00a5b2615d09")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR01"
 			(at 35.56 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7487,7 +7784,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR018")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7504,7 +7801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d7ca854-e86f-4019-a663-70602b06b4e4")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR06"
 			(at 97.79 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7564,7 +7861,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR020")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7582,7 +7879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b0e9b2-237d-45eb-9c36-10e25bf92ae5")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 214.63 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7642,7 +7939,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7660,7 +7957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "835b1892-5872-4422-b1c2-6c963949fe75")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR04"
 			(at 73.66 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7720,7 +8017,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7816,7 +8113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b1665cd-0288-4cb3-9eef-59cb6a651e5f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 46.99 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7877,7 +8174,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7989,7 +8286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9612f45a-b33c-4dc9-a7e6-a216ffd0dae4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR03"
 			(at 58.42 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8049,7 +8346,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR022")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8067,7 +8364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8b7577e-9cf9-4e57-8e05-a030537c2ece")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR07"
 			(at 97.79 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8127,7 +8424,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR021")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8145,7 +8442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c193c8e6-7f9d-442d-8dc8-10aae6a2be60")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 67.31 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8215,7 +8512,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8233,7 +8530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c73c0b58-8a76-41d2-b068-08ea3e2073fa")
-		(property "Reference" "J11"
+		(property "Reference" "J1"
 			(at 55.88 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,7 +8550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Charger PCB:DT13-12"
 			(at 57.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8325,7 +8622,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "J11")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8343,7 +8640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc6ad67-bb91-42cf-aa9a-91f4635b497d")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 100.33 179.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8430,7 +8727,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8546,7 +8843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Charger PCB:SolderJumper-2_P_5A_6.0x4.0mm"
 			(at 77.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8605,7 +8902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7f47094-bb43-4fe9-93b2-7bbbcd78d57e")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 95.25 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8670,7 +8967,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8687,7 +8984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd4f8ac9-5dae-4a97-ac61-45df9d4e2b56")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR015"
 			(at 217.17 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8747,7 +9044,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR06")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8852,7 +9149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df0dc935-8f65-4cb3-b4a4-66dc5fa00ebb")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 116.332 34.798 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8916,7 +9213,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8940,7 +9237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0bb9e1f-2fc1-4d93-a052-c439f6a5b5bc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 80.01 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9000,7 +9297,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9018,7 +9315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eccdb50c-8131-4ac7-a437-9f3e1db0fc27")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 133.35 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9103,7 +9400,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9121,7 +9418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f15a7620-c447-42ec-a15d-d55345ff8d80")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 121.92 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9181,7 +9478,7 @@
 		(instances
 			(project "Charger Junction PCB V1.01"
 				(path "/75f6fa4d-fba8-4d29-9299-863888d8bb95"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9326,7 +9623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Charger PCB:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(property "Footprint" "Charger PCB:SPST_ELC_shop_switch_10x16mm"
 			(at 151.13 35.56 0)
 			(hide yes)
 			(show_name no)
