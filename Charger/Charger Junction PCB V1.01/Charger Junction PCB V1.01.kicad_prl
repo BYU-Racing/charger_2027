@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Charger Junction PCB V1.01.kicad_prl",
+    "filename": "Charger Master.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,16 +92,16 @@
       9
     ],
     "col_widths": [
-      119,
-      110,
-      98,
+      186,
+      171,
+      112,
       79,
-      85,
-      99,
-      87,
+      112,
+      112,
+      112,
       83,
-      72,
-      72
+      112,
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
