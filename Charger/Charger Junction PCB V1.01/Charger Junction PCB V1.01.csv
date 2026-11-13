@@ -6,14 +6,14 @@ C3,1,1u,TRUE,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,
 D2,1,PMEG045V100EPE-QZ,TRUE,Charger PCB:SOT1289_CFP15_NEX,https://assets.nexperia.com/documents/data-sheet/PMEG045V100EPE-Q.pdf
 D4,1,Comchip ATV02W120B-HF,TRUE,Diode_SMD:D_SOD-123F,https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet
 "D5,D6",2,VTVS5V0ASMF-HM3-08,TRUE,Charger PCB:D_SMF,https://www.vishay.com/docs/85891/vtvs3v3asmf.pdf
-J1,1,Battery Cart Connector,FALSE,Charger PCB:DT13-12,
-"J2,J3",2,3557-2,FALSE,Keystone 3557-2 Fuse Holder:CONN_3557-2_KEY,3557-2
-J4,1,Power Switch Connector,FALSE,Charger PCB:CONN_SD-43650-006_03_MOL,
-J5,1,Tractive Battery Connector,FALSE,Charger PCB:DT13-12,
-J6,1,E-Stop,FALSE,Charger PCB:CONN_SD-43650-006_02_MOL,
-J7,1,Reset Button,FALSE,Charger PCB:CONN_SD-43650-006_02_MOL,
-J8,1,BMS and IMD Indicator Light Connector,FALSE,Charger PCB:CONN_SD-43650-006_03_MOL,
-JP1,1,Diode Bypass Jumper,FALSE,Charger PCB:SolderJumper-2_P_5A_6.0x4.0mm,
+J1,1,Battery Cart Connector,TRUE,Charger PCB:DT13-12,
+"J2,J3",2,3557-2,TRUE,Keystone 3557-2 Fuse Holder:CONN_3557-2_KEY,3557-2
+J4,1,Power Switch Connector,TRUE,Charger PCB:CONN_SD-43650-006_03_MOL,
+J5,1,Tractive Battery Connector,TRUE,Charger PCB:DT13-12,
+J6,1,E-Stop,TRUE,Charger PCB:CONN_SD-43650-006_02_MOL,
+J7,1,Reset Button,TRUE,Charger PCB:CONN_SD-43650-006_02_MOL,
+J8,1,BMS and IMD Indicator Light Connector,TRUE,Charger PCB:CONN_SD-43650-006_03_MOL,
+JP1,1,Diode Bypass Jumper,TRUE,Charger PCB:SolderJumper-2_P_5A_6.0x4.0mm,
 "K1,K2",2,Panasonic_TX2,TRUE,Charger PCB:Relay_DPDT_Panasonic_TXSA,
 "Q1,Q2,Q3,Q4,Q5",5,2N7002,TRUE,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
 R1,1,2.74k,TRUE,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
@@ -25,10 +25,10 @@ R7,1,220k,TRUE,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
 R8,1,10M,TRUE,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
 "R9,R10,R12,R13",4,1K,TRUE,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,
 SW1,1,J1772 Dummy Enable (BMS Override),FALSE,Charger PCB:SPST_ELC_shop_switch_10x16mm,
-"TP1,TP2",2,TestPoint,FALSE,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,
-TP3,1,TRIG,FALSE,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,
-TP4,1,DISCH,FALSE,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,
-U2,1,NE555D,FALSE,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/ne555.pdf
+"TP1,TP2",2,TestPoint,TRUE,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,
+TP3,1,TRIG,TRUE,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,
+TP4,1,DISCH,TRUE,TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded,
+U2,1,NE555D,TRUE,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/ne555.pdf
 ,,,FALSE,,
 ,,,FALSE,,
 ,,,FALSE,,

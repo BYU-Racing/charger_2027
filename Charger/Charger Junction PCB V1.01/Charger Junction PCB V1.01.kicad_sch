@@ -8115,7 +8115,7 @@
 				)
 			)
 		)
-		(property "Value" "BMS and IMD Indicator Light Connector"
+		(property "Value" "BMS and IMD Indicator Lights"
 			(at 230.632 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10221,7 +10221,7 @@
 				)
 			)
 		)
-		(property "Value" "Power Switch Connector"
+		(property "Value" "Power Switch"
 			(at 94.234 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
