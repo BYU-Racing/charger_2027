@@ -546,7 +546,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-"netclass_patterns": [
+    "netclass_patterns": [
       {
         "netclass": "Default",
         "pattern": "+12V"
@@ -802,7 +802,7 @@
         "uuid": "75f6fa4d-fba8-4d29-9299-863888d8bb95"
       }
     ],
-"used_designators": "#PWR1-34,D1-7,C1-5,K1-2,CR1,J1-11,JP1,Q1-5,R1-15,SW1,TP1-4,U1-2,H1-4",
+    "used_designators": "#PWR1-34,D1-7,C1-5,K1-2,CR1,J1-11,JP1,Q1-5,R1-15,SW1,TP1-4,U1-2,H1-4",
     "variants": []
   },
   "sheets": [
